@@ -1,15 +1,14 @@
-
-
-.category-page {
-  max-width: 900px;
+ .category-page {
+  max-width: 100%;
   margin: 20px auto;
+  margin-left: 400px;
   padding: 0 20px;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
   font-family: Arial, sans-serif;
   color: #333;
-}
+} 
 
 /* Form container */
 .form-container {

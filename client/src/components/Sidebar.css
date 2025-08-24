@@ -48,11 +48,19 @@
 /* Main content styling */
 .main-content {
   margin-left: 220px; 
+  margin-top: 60px;   
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 60px);
+  box-sizing: border-box;
+}
+/* .main-content {
+  margin-left: 220px; 
   padding: 20px;
   min-height: 100vh;
   box-sizing: border-box;
   background-color: #f9f9f9;
-}
+} */
 
 /* Responsive */
 @media (max-width: 768px) {
