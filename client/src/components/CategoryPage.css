@@ -1,0 +1,121 @@
+
+
+.category-page {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Form container */
+.form-container {
+  flex: 1 1 300px;
+  min-width: 280px;
+  background: #f9f9f9;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input[type="text"] {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.form-container input[type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.form-container button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:disabled {
+  background-color: #7baaf7;
+  cursor: not-allowed;
+}
+
+.form-container button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Category list container */
+.category-list-container {
+  flex: 1 1 300px;
+  min-width: 280px;
+}
+
+.category-list-container h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.category-list li {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+}
+
+.category-list li:last-child {
+  border-bottom: none;
+}
+
+.category-list p {
+  padding: 15px;
+  color: #666;
+  font-style: italic;
+}
+
+/* Responsive: smaller screens */
+@media (max-width: 720px) {
+  .category-page {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .form-container,
+  .category-list-container {
+    min-width: 100%;
+  }
+
+  .category-list {
+    max-height: 300px;
+  }
+}
