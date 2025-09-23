@@ -1,4 +1,7 @@
 The Shopping Task App is a MERN stack application that allows users to manage categories, subcategories, and products in a structured way.
+
+
+
 Shopping_Task/
 │
 ├── client/          # Frontend (React + Vite)
@@ -14,10 +17,12 @@ Shopping_Task/
 │
 └── README.md
 
+
  Features
-  Add Categories
-  Add Subcategories under a Category
-  Add Products under a Subcategory
-  View Category/Subcategory/Product lists
-  Responsive Sidebar + Main Content Layout
-  REST API Integration with MongoDB
+ 
+  Add Categories,
+  Add Subcategories under a Category,
+  Add Products under a Subcategory,
+  View Category/Subcategory/Product lists,
+  Responsive Sidebar + Main Content Layout,
+  REST API Integration with MongoDB.
